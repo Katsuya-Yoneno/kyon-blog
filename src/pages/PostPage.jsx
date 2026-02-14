@@ -1,9 +1,9 @@
 import { Link, useParams } from 'react-router-dom';
 import { posts } from '../data/posts';
-import ViteReactSetupPost from '../posts/ViteReactSetupPost';
+import VimNote1 from '../posts/VimNote1';
 
 const postBodyBySlug = {
-  'vite-react-setup': ViteReactSetupPost,
+  'vim-note1': VimNote1,
 };
 
 function PostPage() {
